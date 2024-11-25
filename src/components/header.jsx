@@ -13,12 +13,22 @@ import {
 } from "@/components/ui/sheet"
 
 const Header = () => {
-    const navigate = useNavigate()
+  const navigate = useNavigate()
   const [isOpen, setIsOpen] = useState(false)
   const toggleSidebar = () => setIsOpen(!isOpen)
+  
   return (
-    <Headroom>
-      <header className="bg-white shadow-md">
+    <Headroom style={{
+      webkitTransform: 'translate3d(0, 0, 0)',
+      mozTransform: 'translate3d(0, 0, 0)',
+      msTransform: 'translate3d(0, 0, 0)',
+      oTransform: 'translate3d(0, 0, 0)',
+      transform: 'translate3d(0, 0, 0)',
+      position: 'fixed',
+      zIndex: 50,
+      width: '100%'
+    }}>
+      <header className="w-full bg-white shadow-md">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-4">
             <div className="flex items-center">
@@ -57,3 +67,4 @@ const Header = () => {
 }
 
 export default Header
+
