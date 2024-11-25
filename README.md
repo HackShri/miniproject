@@ -1,4 +1,4 @@
 # miniproject
-It is a Educational website. 
+This is a educational website
 <br>
-Author - Shrinivs H K
+# Author: [Shrinvas H K]
