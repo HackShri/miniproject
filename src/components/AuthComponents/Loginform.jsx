@@ -28,8 +28,8 @@ export default function LoginPage() {
     console.log(formdata)
 
     return (
-        <div className='w-full min-h-screen flex items-center justify-center bg-gray-50 px-4 py-12 sm:px-6 lg:px-8'>
-            <Card className="w-full max-w-md shadow-md">
+        <div className='w-[1800px] h-[100vh] flex items-center justify-center bg-gray-50 px-4 py-12 sm:px-6 lg:px-8'>
+            <Card className="w-[300px]  shadow-md">
                 <CardHeader className="space-y-1">
                     <CardTitle className="text-2xl font-bold">Login</CardTitle>
                     <CardDescription className="text-sm text-gray-500">Enter your credentials to access your account</CardDescription>

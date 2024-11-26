@@ -45,7 +45,7 @@ export default function RegisterPage() {
     setSuccess(true)
   }
   return (
-    <div className=" flex items-center justify-center bg-gray-100">
+    <div className=" w-[1600px] flex items-center justify-center ">
       <Card className="w-full max-w-md flex flex-col flex justify-center">
         <CardHeader>
           <CardTitle>Register</CardTitle>
